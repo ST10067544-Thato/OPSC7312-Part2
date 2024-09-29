@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <LinearLayout
+        android:id="@+id/linearRowsalarytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/frameIconsalary"
+            style="@style/groupStyleblue_300cornerRadius"
+            android:layout_width="57dp"
+            android:layout_height="53dp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="15dp">
+
+            <ImageView
+                android:id="@+id/imageIconImage"
+                android:layout_width="26dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_television"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/img_television" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linearColumnsalarytex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSalaryText"
+                style="@style/txtPoppinsmedium15_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/lbl_salary"
+                tools:text="@string/lbl_salary" />
+
+            <TextView
+                android:id="@+id/txtDateText"
+                style="@style/txtPoppinssemibold12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/lbl_18_27_nov_30"
+                tools:text="@string/lbl_18_27_nov_30" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/linelineelevenOne"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/deep_orange_400" />
+
+        <TextView
+            android:id="@+id/txtMonthlyText"
+            style="@style/txtPoppinslight13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="7dp"
+            android:singleLine="true"
+            android:text="@string/lbl_monthly"
+            tools:text="@string/lbl_monthly" />
+
+        <View
+            android:id="@+id/lineLinetwelveOne"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/deep_orange_400" />
+
+        <TextView
+            android:id="@+id/txtAmountText"
+            style="@style/txtPoppinsmedium15_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/lbl_r4_000_00"
+            tools:text="@string/lbl_r4_000_00" />
+    </LinearLayout>
+</layout>

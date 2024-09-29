@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <LinearLayout
+        android:id="@+id/linearOrderitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/frameStackrectangle"
+            android:layout_width="57dp"
+            android:layout_height="54dp">
+
+            <View
+                android:id="@+id/viewRectangle"
+                android:layout_width="57dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rectangle_bg_deep_orange_400_radius_22" />
+
+            <FrameLayout
+                android:id="@+id/frameIconfood"
+                style="@style/groupStyleblue_300cornerRadius"
+                android:layout_width="57dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center"
+                android:paddingStart="20dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="12dp">
+
+                <ImageView
+                    android:id="@+id/imageIconImage"
+                    android:layout_width="15dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_flashlight"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_flashlight" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linearColumntitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="7dp"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                style="@style/txtPoppinsmedium15_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/lbl_dinner"
+                tools:text="@string/lbl_dinner" />
+
+            <TextView
+                android:id="@+id/txtSubtitle"
+                style="@style/txtPoppinssemibold12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/msg_18_27_april_30"
+                tools:text="@string/msg_18_27_april_30" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtPrice"
+            style="@style/txtPoppinsmedium15_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="12dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/lbl_r26_00"
+            tools:text="@string/lbl_r26_00" />
+    </LinearLayout>
+</layout>

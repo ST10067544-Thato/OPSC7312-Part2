@@ -1,0 +1,79 @@
+[versions]
+agp = "8.5.1"
+androidxJunit = "1.1.4"
+constraintlayoutVersion = " 2.1.4"
+coreKtxVersion = "1.9.0"
+espressoCoreVersion = " 3.5.0"
+glide = "4.11.0"
+gradle = "7.3.1"
+koinCore = "2.1.6"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinGradlePlugin = "1.7.2"
+kotlinStdlib = "2.1.6"
+kotlinxCoroutinesAndroid = "1.7.3"
+legacySupportV4 = "1.0.0"
+lottie = "3.4.0"
+material = "1.12.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+materialCalendarview = "2.0.0"
+materialVersion = "1.7.0"
+retrofit2KotlinCoroutinesAdapter = "0.9.2"
+securityCrypto = "1.0.0"
+xactivityKtx = "1.6.1"
+xandroidOtpviewPinview = "2.1.2"
+xappcompat = "1.5.1"
+xfragmentKtx = "1.5.5"
+xlifecycleLivedataKtx = "2.2.0"
+xloggingInterceptor = "4.9.0"
+xretrofit = "2.9.0"
+
+[libraries]
+androidx-constraintlayout-v214 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-ktx-v190 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+androidx-espresso-core-v350 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+androidx-junit-v114 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+androidx-legacy-support-v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "legacySupportV4" }
+androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCrypto" }
+androidx-xactivity-ktx = { module = "androidx.activity: activity-ktx", version.ref = "xactivityKtx" }
+androidx-xappcompat = { module = "androidx.appcompat: appcompat", version.ref = "xappcompat" }
+androidx-xfragment-ktx = { module = "androidx.fragment: fragment-ktx", version.ref = "xfragmentKtx" }
+androidx-xlifecycle-extensions = { module = "androidx.lifecycle: lifecycle-extensions", version.ref = "xlifecycleLivedataKtx" }
+androidx-xlifecycle-livedata-ktx = { module = "androidx.lifecycle: lifecycle-livedata-ktx", version.ref = "xlifecycleLivedataKtx" }
+androidx-xlifecycle-viewmodel-ktx = { module = "androidx.lifecycle: lifecycle-viewmodel-ktx", version.ref = "xlifecycleLivedataKtx" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "xretrofit" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+koin-androidx-scope = { module = "io.insert-koin:koin-androidx-scope", version.ref = "koinCore" }
+koin-androidx-viewmodel = { module = "io.insert-koin:koin-androidx-viewmodel", version.ref = "koinCore" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koinCore" }
+koin-core-ext = { module = "io.insert-koin:koin-core-ext", version.ref = "koinCore" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlinStdlib" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-calendarview = { module = "com.github.prolificinteractive:material-calendarview", version.ref = "materialCalendarview" }
+material-v170 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+retrofit2-kotlin-coroutines-adapter = { module = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter", version.ref = "retrofit2KotlinCoroutinesAdapter" }
+xandroid-otpview-pinview = { module = "com.github.mukeshsolanki: android-otpview-pinview", version.ref = "xandroidOtpviewPinview" }
+xlogging-interceptor = { module = "com.squareup.okhttp3: logging-interceptor", version.ref = "xloggingInterceptor" }
+xretrofit = { module = "com.squareup.retrofit2: retrofit", version.ref = "xretrofit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

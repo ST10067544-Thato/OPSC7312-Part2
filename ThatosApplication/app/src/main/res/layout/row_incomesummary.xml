@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <LinearLayout
+        android:id="@+id/linearIncomesummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnArrowLeftIcon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rectangle_border_deep_orange_400_radius_6"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="6dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_arrow_left_deep_orange_400"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txtIncomeText"
+            style="@style/txtPoppinsmedium15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/lbl_income"
+            tools:text="@string/lbl_income" />
+
+        <TextView
+            android:id="@+id/txtAmountText"
+            style="@style/txtPoppinssemibold20_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="10dp"
+            android:singleLine="true"
+            android:text="@string/lbl_r430_560_00"
+            tools:text="@string/lbl_r430_560_00" />
+    </LinearLayout>
+</layout>

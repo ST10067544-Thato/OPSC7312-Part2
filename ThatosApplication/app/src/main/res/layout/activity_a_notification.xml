@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <LinearLayout
+        android:id="@+id/linearColumnarrowLeftOne"
+        style="@style/groupStyledeep_orange_400"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            app:contentInsetStart="0dp">
+
+            <LinearLayout
+                android:id="@+id/linearRowarrowleft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="37dp"
+                android:layout_marginBottom="12dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageArrowleftOne"
+                    android:layout_width="19dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="6dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_arrow_left_white_a700_16x19"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_arrow_left_white_a700_16x19" />
+
+                <TextView
+                    android:id="@+id/txtNotification"
+                    style="@style/txtPoppinssemibold20_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="99dp"
+                    android:ellipsize="end"
+                    android:lineSpacingExtra="10dp"
+                    android:singleLine="true"
+                    android:text="@string/lbl_notification"
+                    tools:text="@string/lbl_notification" />
+
+                <ImageButton
+                    android:id="@+id/btnVectorOne"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="89dp"
+                    android:background="@drawable/rectangle_bg_blue_500_radius_15"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_vector_white_a700"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/linearColumntoday"
+            style="@style/groupStylewhite_A700cornerRadius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:paddingStart="36dp"
+            android:paddingTop="29dp"
+            android:paddingEnd="36dp"
+            android:paddingBottom="29dp">
+
+            <TextView
+                android:id="@+id/txtToday"
+                style="@style/txtLeagueSpartanregular14_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/lbl_today"
+                tools:text="@string/lbl_today" />
+
+            <LinearLayout
+                android:id="@+id/linearRowvectorThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnVectorThree"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="39dp"
+                    android:background="@drawable/rectangle_bg_deep_orange_400_radius_12"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_vector_white_a700_37x37"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/linearColumnreminder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginBottom="27dp"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtReminder"
+                        style="@style/txtPoppinsmedium15_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/lbl_reminder"
+                        tools:text="@string/lbl_reminder" />
+
+                    <TextView
+                        android:id="@+id/txtSetupyour"
+                        style="@style/txtLeagueSpartanregular14_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="@string/msg_set_up_your_automatic"
+                        tools:text="@string/msg_set_up_your_automatic" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt1700novtwentyfo"
+                    style="@style/txtPoppinslight13_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="62dp"
+                    android:ellipsize="end"
+                    android:lineSpacingExtra="7dp"
+                    android:singleLine="true"
+                    android:text="@string/lbl_17_00_nov_24"
+                    tools:text="@string/lbl_17_00_nov_24" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/linelineeightOne"
+                android:layout_width="375dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="7dp"
+                android:background="@color/deep_orange_400" />
+
+            <LinearLayout
+                android:id="@+id/linearRowsignalOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnSignalOne"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="11dp"
+                    android:background="@drawable/rectangle_bg_deep_orange_400_border_white_a700_radius_12"
+                    android:paddingHorizontal="7dp"
+                    android:paddingVertical="7dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_signal"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/linearColumnnewupdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtNewupdate"
+                        style="@style/txtPoppinsmedium15_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/lbl_new_update"
+                        tools:text="@string/lbl_new_update" />
+
+                    <TextView
+                        android:id="@+id/txtSetupyourOne"
+                        style="@style/txtLeagueSpartanregular14_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/msg_set_up_your_automatic"
+                        tools:text="@string/msg_set_up_your_automatic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt1700novtwentyfo1"
+                style="@style/txtPoppinslight13_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="4dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="7dp"
+                android:singleLine="true"
+                android:text="@string/lbl_17_00_nov_24"
+                tools:text="@string/lbl_17_00_nov_24" />
+
+            <View
+                android:id="@+id/lineLinenineOne"
+                android:layout_width="357dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/deep_orange_400" />
+
+            <TextView
+                android:id="@+id/txtYesterday"
+                style="@style/txtLeagueSpartanregular14_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="24dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/lbl_yesterday"
+                tools:text="@string/lbl_yesterday" />
+
+            <LinearLayout
+                android:id="@+id/linearRowvectorFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="87dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnVectorFive"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="18dp"
+                    android:background="@drawable/rectangle_bg_deep_orange_400_border_white_a700_radius_12"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_vector_37x37"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/linearColumntransacti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTransactions"
+                        style="@style/txtPoppinsmedium15_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/lbl_transactions"
+                        tools:text="@string/lbl_transactions" />
+
+                    <TextView
+                        android:id="@+id/txtAnew"
+                        style="@style/txtLeagueSpartanregular14_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/msg_a_new_transaction"
+                        tools:text="@string/msg_a_new_transaction" />
+
+                    <TextView
+                        android:id="@+id/txtGroceries"
+                        style="@style/txtPoppinssemibold11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/msg_groceries_pantry"
+                        tools:text="@string/msg_groceries_pantry" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt1700novtwentyfo2"
+                style="@style/txtPoppinslight13_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:ellipsize="end"
+                android:lineSpacingExtra="7dp"
+                android:singleLine="true"
+                android:text="@string/lbl_17_00_nov_24"
+                tools:text="@string/lbl_17_00_nov_24" />
+
+            <View
+                android:id="@+id/lineLinetenOne"
+                android:layout_width="357dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/deep_orange_400" />
+
+            <LinearLayout
+                android:id="@+id/linearRowvectorSeven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnVectorSeven"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="13dp"
+                    android:background="@drawable/rectangle_bg_deep_orange_400_border_white_a700_radius_12"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_vector_white_a700_37x37"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/linearColumnreminder1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtReminderOne"
+                        style="@style/txtPoppinsmedium15_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/lbl_reminder"
+                        tools:text="@string/lbl_reminder" />
+
+                    <TextView
+                        android:id="@+id/txtSetupyourTwo"
+                        style="@style/txtLeagueSpartanregular14_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="@string/msg_set_up_your_automatic"
+                        tools:text="@string/msg_set_up_your_automatic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt1700novtwentyfo3"
+                style="@style/txtPoppinslight13_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="7dp"
+                android:singleLine="true"
+                android:text="@string/lbl_17_00_nov_24"
+                tools:text="@string/lbl_17_00_nov_24" />
+
+            <View
+                android:id="@+id/linelineelevenOne"
+                android:layout_width="357dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/deep_orange_400" />
+
+            <TextView
+                android:id="@+id/txtThisweekend"
+                style="@style/txtLeagueSpartanregular14_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="22dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/lbl_this_weekend"
+                tools:text="@string/lbl_this_weekend" />
+
+            <LinearLayout
+                android:id="@+id/linearRowcontrastOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="9dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnContrastone"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle_bg_deep_orange_400_border_white_a700_radius_12"
+                    android:paddingHorizontal="3dp"
+                    android:paddingVertical="3dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_contrast"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/linearColumnexpensere"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="9dp"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtExpenserecord"
+                        style="@style/txtPoppinsmedium15_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/lbl_expense_record"
+                        tools:text="@string/lbl_expense_record" />
+
+                    <TextView
+                        android:id="@+id/txtWerecommend"
+                        style="@style/txtLeagueSpartanregular14_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/msg_we_recommend_that"
+                        tools:text="@string/msg_we_recommend_that" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt1700novtwentyfo4"
+                style="@style/txtPoppinslight13_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="7dp"
+                android:singleLine="true"
+                android:text="@string/lbl_17_00_nov_24"
+                tools:text="@string/lbl_17_00_nov_24" />
+
+            <View
+                android:id="@+id/lineLinetwelveOne"
+                android:layout_width="357dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/deep_orange_400" />
+
+            <LinearLayout
+                android:id="@+id/linearRowvectorNine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="87dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnVectorNine"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/rectangle_bg_deep_orange_400_radius_12"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_vector_37x37"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/linearColumntransacti1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtTransactions1"
+                        style="@style/txtPoppinsmedium15_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/lbl_transactions"
+                        tools:text="@string/lbl_transactions" />
+
+                    <TextView
+                        android:id="@+id/txtAnewOne"
+                        style="@style/txtLeagueSpartanregular14_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/msg_a_new_transaction"
+                        tools:text="@string/msg_a_new_transaction" />
+
+                    <TextView
+                        android:id="@+id/txtFooddinner"
+                        style="@style/txtPoppinssemibold11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/msg_food_dinner"
+                        tools:text="@string/msg_food_dinner" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frameBottombar"
+            style="@style/groupStylered_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearRowhomeOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="36dp"
+                android:layout_marginBottom="41dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageHomeOne"
+                    android:layout_width="25dp"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_home_gray_900"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_home_gray_900" />
+
+                <ImageView
+                    android:id="@+id/imageSettingsOne"
+                    android:layout_width="31dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_settings"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_settings" />
+
+                <ImageView
+                    android:id="@+id/imageQuestionOne"
+                    android:layout_width="33dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_question"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_question" />
+
+                <ImageView
+                    android:id="@+id/imageThumbsupOne"
+                    android:layout_width="27dp"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_thumbs_up"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_thumbs_up" />
+
+                <ImageView
+                    android:id="@+id/imageLockOne"
+                    android:layout_width="22dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_lock"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_lock" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <LinearLayout
+        android:id="@+id/linear1BLaunch"
+        style="@style/groupStylewhite_A700"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="287dp"
+        android:paddingBottom="287dp">
+
+        <View
+            android:id="@+id/viewView"
+            android:layout_width="239dp"
+            android:layout_height="146dp" />
+
+        <ImageView
+            android:id="@+id/imageDefaultOne"
+            android:layout_width="239dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_default_monochrome_yellow_900"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/img_default_monochrome_yellow_900" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogIn"
+            style="@style/btnSolidRounded"
+            android:layout_width="207dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lineSpacingExtra="10dp"
+            android:paddingStart="30dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="5dp"
+            android:singleLine="true"
+            android:text="@string/lbl_log_in"
+            android:textAllCaps="false"
+            tools:text="@string/lbl_log_in" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSignUp"
+            style="@style/btnSolidRounded_1"
+            android:layout_width="207dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lineSpacingExtra="10dp"
+            android:paddingStart="30dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="6dp"
+            android:singleLine="true"
+            android:text="@string/lbl_sign_up"
+            android:textAllCaps="false"
+            tools:text="@string/lbl_sign_up" />
+    </LinearLayout>
+</layout>

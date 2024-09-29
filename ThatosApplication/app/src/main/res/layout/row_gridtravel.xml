@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <LinearLayout
+        android:id="@+id/linearColumntravel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frameTravel"
+            style="@style/groupStyleblue_1"
+            android:layout_width="105dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingStart="19dp"
+            android:paddingTop="31dp"
+            android:paddingEnd="19dp"
+            android:paddingBottom="31dp">
+
+            <ImageView
+                android:id="@+id/imageTravelImage"
+                android:layout_width="66dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_airplane"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/img_airplane" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtTravel"
+            style="@style/txtPoppinsmedium15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/lbl_travel"
+            tools:text="@string/lbl_travel" />
+    </LinearLayout>
+</layout>

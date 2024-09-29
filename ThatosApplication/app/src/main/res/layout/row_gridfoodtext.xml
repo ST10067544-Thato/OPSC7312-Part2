@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <LinearLayout
+        android:id="@+id/linearColumnfoodtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frameFood"
+            style="@style/groupStyleblue_500cornerRadius"
+            android:layout_width="105dp"
+            android:layout_height="97dp"
+            android:paddingStart="37dp"
+            android:paddingTop="21dp"
+            android:paddingEnd="37dp"
+            android:paddingBottom="21dp">
+
+            <ImageView
+                android:id="@+id/imageFoodImage"
+                android:layout_width="30dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_flashlight_white_a700"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/img_flashlight_white_a700" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtFoodText"
+            style="@style/txtPoppinsmedium15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/lbl_food"
+            tools:text="@string/lbl_food" />
+    </LinearLayout>
+</layout>
